@@ -1,0 +1,109 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+
+
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin:0; padding:0; border:0; /*vertical-align:baseline;*/ }
+
+:focus { outline:0; }
+
+a{text-decoration:none; color:#000000; cursor:pointer;}
+
+a:active { outline:none; }
+
+a:hover{ text-decoration:underline; color:#ff5e00;}
+
+body{ color:#000000; font-family:"Microsoft Yahei",微软雅黑; font-size:14px; background:url("bodybg.jpg")/*tpa=http://vipbet.cc/images/bodybg.jpg*/ repeat-y center 101px;}
+
+ol,ul,li { list-style:none; }
+
+table { border-collapse:separate; border-spacing:0;}
+
+.clear{ clear:both; height:0px; visibility:hidden; line-height:0px; font-size:0px; overflow:hidden;}
+
+
+
+.zfmain{ width:1000px; margin:0 auto;}
+
+.zftop{ background:url("topbg.jpg")/*tpa=http://vipbet.cc/images/topbg.jpg*/ no-repeat; height:50px;}
+
+.zftop .zfmain{ height:50px; position:relative;}
+
+.zftop .zfmain .zflogo{ width:435px; height:140px; position:absolute; left:-120px; top:0px; background:url("logo.png")/*tpa=http://vipbet.cc/images/logo.png*/ no-repeat;}
+
+.zftop .zfmain .zflogo a{ display:block; height:140px;}
+
+.zftop .zfmain .zfmenu{ width:580px; position:absolute; right:0px; top:0px;}
+
+.zftop .zfmain .zfmenu p{ text-align:right; padding:2px 0 25px 0;}
+
+.zftop .zfmain .zfmenu ul li{ float:left; width:160px; display:inline; text-align:center; font-size:16px; color:#068cea;}
+
+.zftop .zfmain .zfmenu ul li a{ color:#068cea; display:inline-block; width:150px;}
+
+.pdtop{ padding-top:10px;}
+
+.tymgbt{ margin-bottom:5px;}
+
+.colff,.zfcontent1 .rglogo dl dd a{ color:#ffffff;}
+
+.zfcontent1{ overflow:hidden;}
+
+.zfcontent1 .lfpic{ width:320px; float:left;}
+
+.zfcontent1 .lfpic span{ display:block; margin-bottom:5px;}
+
+.zfcontent1 .lfpic span img{ border:0px #4582a7 solid;}
+
+.zfcontent1 .lfpic p{ text-align:center;}
+
+.zfcontent1 .rglogo{ width:680px; float:right; padding-top:62px;}
+
+.zfcontent1 .rglogo dl{ width:70px; float:left; padding:0 20px; background:url("line.png")/*tpa=http://vipbet.cc/images/line.png*/ no-repeat right 5px;}
+
+.zfcontent1 .rglogo dl.bgnone{ background:none;}
+
+.zfcontent1 .rglogo dl dt{ width:73px; height:67px;}
+
+.zfcontent1 .rglogo dl dd{ width:70px; text-align:center; line-height:38px;}
+
+.zftylist{ width:493px; height:268px; border:1px #002046 solid; background:#ffffff; border-radius:5px; margin-bottom:10px; float:left;}
+
+.zftycut{ height:33px; background:url("cutbg.jpg")/*tpa=http://vipbet.cc/images/cutbg.jpg*/ repeat-x; line-height:33px; padding-left:12px; border-radius:5px 5px 0 0;}
+
+.zftydes{ height:90px; padding:5px 0; text-align:center;}
+
+.zftynrtb{ padding:0 8px 0 62px; font-size:12px;}
+
+.zftynrtb table{ border-left:1px #cccccc solid; border-top:1px #cccccc solid;}
+
+.zftynrtb table tr td{ border-bottom:1px #cccccc solid; border-right:1px #cccccc solid; padding:5px 0 5px 10px;}
+
+.zftynrtb table tr td a{ color:#5d00ff;}
+
+.mgrg{ margin-right:10px; display:inline;}
+
+.yyzqtitle{ padding:10px 0; overflow:hidden;}
+
+.yylist{ width:242px; float:left; margin-right:10px; display:inline;}
+
+.yylist p{ padding:12px 0; text-align:center;}
+
+.mg0{ margin-right:0px;}
+
+.zffooter{ height:72px; background:url("footerbg.jpg")/*tpa=http://vipbet.cc/images/footerbg.jpg*/ no-repeat center top;}
+
+.zffooter .fllf{ float:left;}
+
+.zffooter .flrg{ float:right; width:350px; text-align:right; line-height:72px;}
+
+.couplet_ad
+/* 底部固定*/{position:fixed;bottom:auto; top:0; width: 120px; height: 230px; z-index:99999; margin-top:158px;}
+* html .couplet_ad
+/* IE6 底部固定*/{_position:absolute;
+_bottom:auto;
+_top:expression(eval(document.documentElement.scrollTop));}
+.couplet_ad a{ display:block; cursor:pointer;}
+#ad_left{ left: 0px;}
+#ad_right{ right: 38px;}
